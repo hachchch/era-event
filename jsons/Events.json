@@ -1,0 +1,68 @@
+[
+        {
+                "name": "Ancient",
+                "text": "After the agricultural revolution around the world, unique civilizations were formed in various regions. You are in a position to lead the people of this civilization. First, let people know the way of your civilization!",
+                "choices":[
+                        {
+                                "text": "Hail to the King! Hail to the Civilization!",
+                                "triggeredUniques": ["Empire enters golden age"]
+                        },
+                        {
+                                "text": "We resolve all issues through discussion and co-prosper peacefully.",
+                                "triggeredUniques": ["Gain [35] [gold] (modified by game speed)"]
+                        },
+			{
+                                "text": "Praise our God.",
+                                "triggeredUniques": ["Gain enough Faith for [6]% of a Great Prophet"]
+                        },
+			{
+				"text": "There are many wonderful things in this world that we don't know about.",
+				"triggeredUniques": ["Free [Scout] appears"]
+			}
+                ]
+        },
+        {
+                "name": "Classical",
+                "text": "After many discoveries, your civilization has grown into a city. Excellent scholarship and literature are developing! Show citizens your country's philosophy.",
+                "choices":[
+                        {
+                                "text": "The king is like a god. No one should go against the king.",
+                                "triggeredUniques": ["Capital production increases by 10%.","Gain a free [Production Bonus] [in capital] <hidden from users>"]
+                        },
+                        {
+                                "text": "The people should rule the city.",
+                                "triggeredUniques": ["[1] population [in capital]"]
+                        },
+			{
+                                "text": "Studying is the greatest happiness.",
+                                "triggeredUniques": ["Free Technology"]
+                        },
+			{
+				"text": "War and die is beautiful.",
+				"triggeredUniques": ["[Military] units gain the [Morale] promotion"]
+			}
+                ]
+        },
+        {
+                "name": "Medieval",
+                "text": "",
+                "choices":[
+                        {
+                                "text": "The king is like a god. No one should go against the king.",
+                                "triggeredUniques": ["Capital production increases by 10%.","Gain a free [Production Bonus] [in capital] <hidden from users>"]
+                        },
+                        {
+                                "text": "The people should rule the city.",
+                                "triggeredUniques": ["[1] population [in capital]"]
+                        },
+			{
+                                "text": "Studying is the greatest happiness.",
+                                "triggeredUniques": ["Free Technology"]
+                        },
+			{
+				"text": "War and die is beautiful.",
+				"triggeredUniques": ["[Military] units gain the [Morale] promotion"]
+			}
+                ]
+        }
+]
