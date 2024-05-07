@@ -109,7 +109,7 @@
 			}
                 ]
 	},
-	{
+	/*{
 		"name": "Modern",
                 "text": "",
                 "choices":[
@@ -130,5 +130,5 @@
                                 "triggeredUniques": ["Cities production decreases by 10%."]
                         }
                 ]
-	}
+	}*/
 ]
