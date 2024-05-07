@@ -9,7 +9,7 @@
                         },
                         {
                                 "text": "We resolve all issues through discussion and co-prosper peacefully.",
-                                "triggeredUniques": ["Gain [35] [gold] (modified by game speed)"]
+                                "triggeredUniques": ["Gain [35] [Gold] (modified by game speed)"]
                         },
 			{
                                 "text": "Praise our God.",
@@ -27,7 +27,7 @@
                 "choices":[
                         {
                                 "text": "The king is like a god. No one should go against the king.",
-                                "triggeredUniques": ["Capital production increases by 10%.","Gain a free [Production Bonus] [in capital] <hidden from users>"]
+                                "triggeredUniques": ["Capital production increases by 10%.","Gain a free [Classical Bonus] [in capital] <hidden from users>"]
                         },
                         {
                                 "text": "The people should rule the city.",
@@ -45,24 +45,90 @@
         },
         {
                 "name": "Medieval",
+                "text": "Global religions continue to grow in influence. We should donate tribute to the Pope to show the position of our kingdom.",
+                "choices":[
+			{
+                                "text": "I don't.",
+                                "triggeredUniques": ["-1 Happiness in all cities with major religion","Gain a free [Medieval Damage] [in all cities] <hidden from users>"]
+                        },
+                        {
+                                "text": "Donate 100 Gold",
+				"conditions": ["when above [99] [Gold]"],
+                                "triggeredUniques": ["Gain [-100] [Gold]","Gain [100] [Faith]"]
+                        },
+                        {
+                                "text": "Donate 200 Gold",
+				"conditions": ["when above [199] [Gold]"],
+                                "triggeredUniques": ["Gain [-200] [Gold]","Gain [150] [Faith]"]
+                        },
+			{
+                                "text": "Donate 300 Gold",
+				"conditions": ["when above [299] [Gold]"],
+                                "triggeredUniques": ["Gain [-300] [Gold]","Gain [200] [Faith]"]
+                        },
+			{
+				"text": "Donate 400 Gold",
+				"conditions": ["when above [399] [Gold]"],
+				"triggeredUniques": ["Gain [-400] [Gold]","Gain [250] [Faith]"]
+			}
+                ]
+        },
+	{
+		"name": "Renaissance",
+                "text": "New discoveries continue to change the world. Science and technology have made everything possible, even circling the Earth! Let's inform the people of the country's policy.",
+                "choices":[
+                        {
+                                "text": "Let's promote science.",
+                                "triggeredUniques": ["Gain [-200] [Gold]","Cities Science increases by 10%.","Gain a free [Renaissance Bonus] [in all cities] <hidden from users>"]
+                        },
+			{
+                                "text": "Build a palace for the nobility.",
+                                "triggeredUniques": ["Gain [-300] [Gold]","Gain [200] [Faith]"]
+                        },
+			{
+				"text": "Let's create colonies all over the planet.",
+				"triggeredUniques": ["Gain [-400] [Gold]","Gain [250] [Faith]"]
+			}
+                ]
+	},
+	{
+		"name": "Industrial",
+                "text": "The increase in productivity brought about by the steam engine sparked the Industrial Revolution. With the influx of people into cities, environmental and urban problems are occurring. People are not satisfied with current policies. To appease them, you have to present policies for the people.",
+                "choices":[
+                        {
+                                "text": "Human Rights",
+                                "triggeredUniques": ["Cities food decreases by 10%."]
+                        },
+			{
+                                "text": "Labor Law",
+                                "triggeredUniques": ["Cities production decreases by 10%."]
+                        },
+			{
+				"text": "Insurance System",
+				"triggeredUniques": ["Cities gold decreases by 10%."]
+			}
+                ]
+	},
+	{
+		"name": "Modern",
                 "text": "",
                 "choices":[
                         {
-                                "text": "The king is like a god. No one should go against the king.",
-                                "triggeredUniques": ["Capital production increases by 10%.","Gain a free [Production Bonus] [in capital] <hidden from users>"]
-                        },
-                        {
-                                "text": "The people should rule the city.",
-                                "triggeredUniques": ["[1] population [in capital]"]
+                                "text": "",
+                                "triggeredUniques": ["Cities food decreases by 10%."]
                         },
 			{
-                                "text": "Studying is the greatest happiness.",
-                                "triggeredUniques": ["Free Technology"]
+                                "text": "",
+                                "triggeredUniques": ["Cities production decreases by 10%."]
                         },
 			{
-				"text": "War and die is beautiful.",
-				"triggeredUniques": ["[Military] units gain the [Morale] promotion"]
-			}
+                                "text": "",
+                                "triggeredUniques": ["Cities production decreases by 10%."]
+                        },
+			{
+                                "text": "Prepare for Big war.",
+                                "triggeredUniques": ["Cities production decreases by 10%."]
+                        }
                 ]
-        }
+	}
 ]
